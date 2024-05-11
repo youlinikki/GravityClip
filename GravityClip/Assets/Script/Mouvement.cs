@@ -1,24 +1,24 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))] // Assurez-vous qu'un Rigidbody2D est attaché au GameObject
+[RequireComponent(typeof(Rigidbody2D))] // Assurez-vous qu'un Rigidbody2D est attachï¿½ au GameObject
 public class DeplacementPersonnage : MonoBehaviour
 {
-    public float vitesseDeplacement = 5f; // Vitesse de déplacement du personnage
+    public float vitesseDeplacement = 5f; // Vitesse de dï¿½placement du personnage
     public float forceSaut = 10f; // Force du saut
-    private Rigidbody2D rb; // Référence au composant Rigidbody2D
-    private bool vaADroite = true; // Variable pour suivre la direction du personnage
+    private Rigidbody2D rb; // Rï¿½fï¿½rence au composant Rigidbody2D
+    public bool vaADroite = true; // Variable pour suivre la direction du personnage
 
-    // Méthode appelée lorsque le script est initialisé
+    // Mï¿½thode appelï¿½e lorsque le script est initialisï¿½
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>(); // Obtenez le Rigidbody2D attaché au GameObject
-        rb.freezeRotation = true; // Empêcher la rotation du Rigidbody2D
+        rb = GetComponent<Rigidbody2D>(); // Obtenez le Rigidbody2D attachï¿½ au GameObject
+        rb.freezeRotation = true; // Empï¿½cher la rotation du Rigidbody2D
     }
 
-    // Méthode appelée à chaque frame
+    // Mï¿½thode appelï¿½e ï¿½ chaque frame
     void Update()
     {
-        // Déplacement horizontal du personnage
+        // Dï¿½placement horizontal du personnage
         float deplacementHorizontal = Input.GetAxis("Horizontal") * vitesseDeplacement * Time.deltaTime;
         Vector2 deplacement = new Vector2(deplacementHorizontal, 0);
         transform.Translate(deplacement);
@@ -40,7 +40,7 @@ public class DeplacementPersonnage : MonoBehaviour
         }
     }
 
-    // Méthode pour retourner le personnage
+    // Mï¿½thode pour retourner le personnage
     void RetournerPersonnage()
     {
         vaADroite = !vaADroite;
@@ -49,7 +49,7 @@ public class DeplacementPersonnage : MonoBehaviour
         transform.localScale = nouvelleEchelle;
     }
 
-    // Méthode pour gérer le saut
+    // Mï¿½thode pour gï¿½rer le saut
     void Sauter()
     {
         rb.AddForce(Vector2.up * forceSaut, ForceMode2D.Impulse); // Appliquer une force de saut

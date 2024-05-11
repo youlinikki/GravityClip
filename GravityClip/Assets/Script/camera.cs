@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform joueur1; // Référence au transform du joueur 1
-    public Transform joueur2; // Référence au transform du joueur 2
+    public Transform joueur1; // Rï¿½fï¿½rence au transform du joueur 1
+    public Transform joueur2; // Rï¿½fï¿½rence au transform du joueur 2
     public float zoomSpeed = 2.0f; // Vitesse de zoom
     public float minZoom = 5.0f; // Zoom minimal
     public float maxZoom = 15.0f; // Zoom maximal
-    public float smoothSpeed = 0.125f; // Vitesse de déplacement de la caméra
+    public float smoothSpeed = 0.125f; // Vitesse de dï¿½placement de la camï¿½ra
 
     void LateUpdate()
     {
@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
             float distance = Vector3.Distance(joueur1.position, joueur2.position);
             float newZoom = Mathf.Lerp(maxZoom, minZoom, distance / maxZoom);
 
-            transform.position = Vector3.Lerp(transform.position, new Vector3(milieu.x, milieu.y, -newZoom), smoothSpeed * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(milieu.x, transform.position.y, -newZoom), smoothSpeed * Time.deltaTime);
         }
     }
 }

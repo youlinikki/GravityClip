@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,1120 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748b3d25b8cbe794e857a18b67f4c7e4
+      internalID: -768466128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e942bc2b4c420498ebacddf3b2222a
+      internalID: -599377768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8484a184643e3418bb386ab0698452
+      internalID: 1140983127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9bc3b944350d94b9c69203c491b64e
+      internalID: 743799770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676970f9916b1843af8437252f5cde7
+      internalID: -650424213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ebf5ca7a5a855408ff43ec2f39e957
+      internalID: 1179326811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976b9bd746cc28d4c80fb11fefdc65c2
+      internalID: -603968845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49fb935201e7f24a85bbbaed79c5891
+      internalID: -1502734913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9da13e7bff62f43b315d20b1e21923
+      internalID: 975061065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f517ae4d46894894f2f5c3b6b1893
+      internalID: 237060700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8772a37fd265b47af4535f856d89b2
+      internalID: -920407695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93faec9a4af53034ea6e172d3f4dd578
+      internalID: 2030416372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71506414c78eea84caf33af5e1e108b1
+      internalID: -204862331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c127b37d10f60ae4ebab4ae66eecb4f7
+      internalID: -1023302099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 836
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b208d2064982a145872347e2db4645e
+      internalID: 1243768712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138dbd32358f99e4fa53f0b6bc2e5566
+      internalID: 22266478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a1cf9447fdd0a4bb3772ccf2e00596
+      internalID: 1184719812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3973a882f3f587a49a32edd61e8d190f
+      internalID: -1960640276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4064014c6b88f934fa15cd1906aee20d
+      internalID: 5278801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77501d4967a88254695524e496763f2e
+      internalID: 1846453354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8139417de5f81a449af8ec44b664da4
+      internalID: -881072965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f01dc280b04744fbb57adb2db88c1e
+      internalID: -2033301019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6661881852e1170438ba7a6d71652e6f
+      internalID: -709398773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1566830499ad2364399bb365c5001fe0
+      internalID: 1296938151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3eeabd73a27d243af60c4576bf3639
+      internalID: 144994187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dec4918f97fb934985ce92defeb9c7b
+      internalID: -1621852832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63ac171ad39514296023fd84845da8
+      internalID: -1314783786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b10ceaebc1d8743bfaec1b958526ec
+      internalID: 359388517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7a3373db3ab54382d2e9b461d1ef8
+      internalID: -1723239927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 648
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d45e19620ec53469cab0852aa6216f
+      internalID: 2026321682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6243a5b48efaad94292b7b18880ac472
+      internalID: 1772558756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced5215afd606194b8e45e97a4435636
+      internalID: 1340030998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647011ceed0c24447974d9a612b91100
+      internalID: 946322042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c017a3457e8ebca4fbe6edc53ee936e5
+      internalID: 170915299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8a0bfcc7cfb6498478adc50dffcbe
+      internalID: 496360224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16854b99e66f80e43b4c1cecac70db9d
+      internalID: -2146070322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a95808ff9b876c4a9593711bfe9223d
+      internalID: -1638309065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942151d6460ff2e4181e92563a0f6b45
+      internalID: 1657758927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb7785f45774ca409951e01a00ab5e3
+      internalID: -778331472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea93fab3ea53543978b333418db2f2
+      internalID: 1947258340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9548dbb0cfd354145aa0463a2e11b688
+      internalID: -198763422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c717e8dc7e9848ade3f2ab265596a
+      internalID: 566344941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a980d1af56fb56a4ebd1652e8647c060
+      internalID: 1051249177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 460
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8115b36f04ce44a89bd793f1b06ded
+      internalID: -296143622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae3974ff922494fba45f90e97d7bb4
+      internalID: -234977839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bdeb1bc6db2b34685e9af247c2ea8a
+      internalID: -1184189976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e4672e74774d45b8698bf6094a11a
+      internalID: 123363241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5792b85cd7afa7d408da6989a7b2c577
+      internalID: 2047845654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4ac5f367ad27249b24f230fd3a0e9f
+      internalID: -1445936784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a649337975537341923d6d6e776f460
+      internalID: 1972063857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904e3b31bbce14f419aab46c36e51d30
+      internalID: -724651816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f14aebc62c6fb4fa5780a6f084320a
+      internalID: 1534474986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARA_IDLE_SPRITE_SHEET_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 272
+        width: 64
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203613c67a339e441b50243669e22ce9
+      internalID: 343370014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1232,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARA_IDLE_SPRITE_SHEET_0: -768466128
+      CHARA_IDLE_SPRITE_SHEET_1: -599377768
+      CHARA_IDLE_SPRITE_SHEET_10: -920407695
+      CHARA_IDLE_SPRITE_SHEET_11: 2030416372
+      CHARA_IDLE_SPRITE_SHEET_12: -204862331
+      CHARA_IDLE_SPRITE_SHEET_13: -1023302099
+      CHARA_IDLE_SPRITE_SHEET_14: 1243768712
+      CHARA_IDLE_SPRITE_SHEET_15: 22266478
+      CHARA_IDLE_SPRITE_SHEET_16: 1184719812
+      CHARA_IDLE_SPRITE_SHEET_17: -1960640276
+      CHARA_IDLE_SPRITE_SHEET_18: 5278801
+      CHARA_IDLE_SPRITE_SHEET_19: 1846453354
+      CHARA_IDLE_SPRITE_SHEET_2: 1140983127
+      CHARA_IDLE_SPRITE_SHEET_20: -881072965
+      CHARA_IDLE_SPRITE_SHEET_21: -2033301019
+      CHARA_IDLE_SPRITE_SHEET_22: -709398773
+      CHARA_IDLE_SPRITE_SHEET_23: 1296938151
+      CHARA_IDLE_SPRITE_SHEET_24: 144994187
+      CHARA_IDLE_SPRITE_SHEET_25: -1621852832
+      CHARA_IDLE_SPRITE_SHEET_26: -1314783786
+      CHARA_IDLE_SPRITE_SHEET_27: 359388517
+      CHARA_IDLE_SPRITE_SHEET_28: -1723239927
+      CHARA_IDLE_SPRITE_SHEET_29: 2026321682
+      CHARA_IDLE_SPRITE_SHEET_3: 743799770
+      CHARA_IDLE_SPRITE_SHEET_30: 1772558756
+      CHARA_IDLE_SPRITE_SHEET_31: 1340030998
+      CHARA_IDLE_SPRITE_SHEET_32: 946322042
+      CHARA_IDLE_SPRITE_SHEET_33: 170915299
+      CHARA_IDLE_SPRITE_SHEET_34: 496360224
+      CHARA_IDLE_SPRITE_SHEET_35: -2146070322
+      CHARA_IDLE_SPRITE_SHEET_36: -1638309065
+      CHARA_IDLE_SPRITE_SHEET_37: 1657758927
+      CHARA_IDLE_SPRITE_SHEET_38: -778331472
+      CHARA_IDLE_SPRITE_SHEET_39: 1947258340
+      CHARA_IDLE_SPRITE_SHEET_4: -650424213
+      CHARA_IDLE_SPRITE_SHEET_40: -198763422
+      CHARA_IDLE_SPRITE_SHEET_41: 566344941
+      CHARA_IDLE_SPRITE_SHEET_42: 1051249177
+      CHARA_IDLE_SPRITE_SHEET_43: -296143622
+      CHARA_IDLE_SPRITE_SHEET_44: -234977839
+      CHARA_IDLE_SPRITE_SHEET_45: -1184189976
+      CHARA_IDLE_SPRITE_SHEET_46: 123363241
+      CHARA_IDLE_SPRITE_SHEET_47: 2047845654
+      CHARA_IDLE_SPRITE_SHEET_48: -1445936784
+      CHARA_IDLE_SPRITE_SHEET_49: 1972063857
+      CHARA_IDLE_SPRITE_SHEET_5: 1179326811
+      CHARA_IDLE_SPRITE_SHEET_50: -724651816
+      CHARA_IDLE_SPRITE_SHEET_51: 1534474986
+      CHARA_IDLE_SPRITE_SHEET_52: 343370014
+      CHARA_IDLE_SPRITE_SHEET_6: -603968845
+      CHARA_IDLE_SPRITE_SHEET_7: -1502734913
+      CHARA_IDLE_SPRITE_SHEET_8: 975061065
+      CHARA_IDLE_SPRITE_SHEET_9: 237060700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
