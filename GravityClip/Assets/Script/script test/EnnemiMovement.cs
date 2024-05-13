@@ -28,4 +28,5 @@ public class EnnemiMovement : MonoBehaviour
             graphics.flipX = !graphics.flipX;
         }
     }
+ 
 }
