@@ -9,9 +9,10 @@ public class NPC : MonoBehaviour
 
 
     public GameObject dialoguePanel;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
     public string[] dialogue;
     private int index;
+    public Collider2D collider2d;
 
     public GameObject contButton;
     public float wordSpeed;
