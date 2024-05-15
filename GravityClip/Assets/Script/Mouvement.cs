@@ -73,7 +73,7 @@ public class DeplacementPersonnage : MonoBehaviour
     private IEnumerator sauterCD()
     {
         IsJumping = true;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         IsJumping = false;
     }
 
