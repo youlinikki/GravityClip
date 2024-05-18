@@ -4066,8 +4066,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2146165803}
-        m_TargetAssemblyTypeName: ParametreMenu, Assembly-CSharp
+      - m_Target: {fileID: 2146165806}
+        m_TargetAssemblyTypeName: ParametreLevel, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -74119,7 +74119,7 @@ GameObject:
   - component: {fileID: 2146165802}
   - component: {fileID: 2146165805}
   - component: {fileID: 2146165804}
-  - component: {fileID: 2146165803}
+  - component: {fileID: 2146165806}
   m_Layer: 5
   m_Name: Parametre
   m_TagString: Untagged
@@ -74153,19 +74153,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -20}
   m_SizeDelta: {x: -239.63239, y: -134.74713}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2146165803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146165801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b84de0c1278eda4e86f286684aab729, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 95c26e167ebf71743a652d3cb8b24d28, type: 2}
 --- !u!114 &2146165804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74204,6 +74191,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146165801}
   m_CullTransparentMesh: 1
+--- !u!114 &2146165806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146165801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: befc5536c4c75e041b3135864f372ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 95c26e167ebf71743a652d3cb8b24d28, type: 2}
 --- !u!114 &23334829171026571
 MonoBehaviour:
   m_ObjectHideFlags: 0
