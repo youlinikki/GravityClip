@@ -6,7 +6,7 @@ AudioMixerController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Level_01
+  m_Name: Level01
   m_OutputGroup: {fileID: 0}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
@@ -17,7 +17,7 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 9a6319f1c3142ba40b2f818a0b9995db
-    name: Volume niveau
+    name: Volume2
   m_AudioMixerGroupViews:
   - guids:
     - aa889831f2de2e84e9391fef165536ea

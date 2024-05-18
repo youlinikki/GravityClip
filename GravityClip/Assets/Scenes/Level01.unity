@@ -5617,10 +5617,10 @@ AudioSource:
   m_GameObject: {fileID: 935290655}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 54a3a7e884a84364180c865373e06f59, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e2644f52c0528d446a8a1ebd47f8b6b9, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 95c26e167ebf71743a652d3cb8b24d28, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 9742cb90721b7814ab96595a57cae6ce, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -77516,7 +77516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befc5536c4c75e041b3135864f372ba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 54a3a7e884a84364180c865373e06f59, type: 2}
+  levelmixer: {fileID: 24100000, guid: 95c26e167ebf71743a652d3cb8b24d28, type: 2}
 --- !u!114 &23334829171026571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77945,6 +77945,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1231787338}
   - {fileID: 1490658337}
+  - {fileID: 1386191876}
   - {fileID: 935290657}
   - {fileID: 846438614}
   - {fileID: 2092293111}
@@ -77958,7 +77959,6 @@ SceneRoots:
   - {fileID: 4158322580702030227}
   - {fileID: 2046987040}
   - {fileID: 633330590}
-  - {fileID: 1386191876}
   - {fileID: 871694425}
   - {fileID: 322896029}
   - {fileID: 714892007}

@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class ParametreLevel : MonoBehaviour
 {
-    public AudioMixer audioMixer;
+    public AudioMixer levelmixer;
 
 
 
 
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("Volume niveau", volume);
+        levelmixer.SetFloat("Volume2", volume);
     }
     public void SetFullScreen(bool isFullScreen)
     {
