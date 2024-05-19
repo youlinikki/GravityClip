@@ -12,9 +12,14 @@ public class DeplacementPersonnage : MonoBehaviour
 
     public bool IsJumping = false;
 
+    public Animator animator;
+    private AudioSource audioSource;
+    public AudioClip PlayJumpSound;
+
     // M�thode appel�e lorsque le script est initialis�
     void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>(); // Obtenez le Rigidbody2D attach� au GameObject
         rb.freezeRotation = true; // Emp�cher la rotation du Rigidbody2D
     }
@@ -28,7 +33,9 @@ public class DeplacementPersonnage : MonoBehaviour
         float deplacementHorizontal = Input.GetAxis("Horizontal") * vitesseDeplacement * Time.deltaTime;
         Vector2 deplacement = new Vector2(deplacementHorizontal, 0);
         transform.Translate(deplacement);
-
+        animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        animator.SetBool("IsJump", IsJumping);
+        animator.SetFloat("VeloY", rb.velocity.y);
         // Inversion de la direction du personnage
         if (deplacementHorizontal > 0 && !vaADroite)
         {
@@ -62,7 +69,7 @@ public class DeplacementPersonnage : MonoBehaviour
         
         if (!IsJumping)
         { 
-        
+            audioSource.PlayOneShot(PlayJumpSound, 1);
             rb.AddForce(Vector2.up * forceSaut, ForceMode2D.Impulse); // Appliquer une force de saut
             StartCoroutine(sauterCD());
         }

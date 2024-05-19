@@ -11,8 +11,12 @@ public class Trap : MonoBehaviour
 
     GameObject fusionControl;
 
+    private AudioSource audioSource;
+    public AudioClip PlayDeathSound;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         // je récupère les deux points de réaparition et les joueurs
 
         Joueur1 =  GameObject.Find("Joueur");
@@ -32,6 +36,7 @@ public class Trap : MonoBehaviour
             Joueur2.SetActive(true);
             Joueur1.transform.position = respawnpoint1.transform.position;
             Joueur2.transform.position = respawnpoint2.transform.position;
+            audioSource.PlayOneShot(PlayDeathSound, 1);
         }
     }
 }

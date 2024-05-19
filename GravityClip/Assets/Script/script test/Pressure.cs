@@ -9,6 +9,7 @@ public class Pressure : MonoBehaviour
 {
     public bool IsPressure;
 
+    public Animator animator;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,6 +23,7 @@ public class Pressure : MonoBehaviour
         {
             IsPressure = false;
         }
+         animator.SetBool("IsPress",  IsPressure);
     }
 
 
